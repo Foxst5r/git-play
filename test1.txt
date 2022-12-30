@@ -1,2 +1,7 @@
-test1
-
+int mult10 () {
+  int result = 1;
+  for (int i = 1; i <= 10; i++) {
+    result *= i;
+  }
+  return result;
+}
